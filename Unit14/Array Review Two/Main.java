@@ -14,15 +14,14 @@ public class Main
 
   public static boolean isLowerCase(char ch) 
   {
-    if (ch >= 'a) && (ch <= 'z') {
-      return true;
-    }
+    if ((ch >= 'a') && (ch <= 'z')) 
+    { return true; }
     return false;
   }
 
   public static boolean isUpperCase(char ch) 
   {
-    if (ch >= 'A' && ch <= 'Z') 
+    if ((ch >= 'A') && (ch <= 'Z'))
     { return true; }
     return false;
   }
@@ -163,4 +162,5 @@ public class Main
     System.out.println("Vowels in array2? " + countVowels(array2));
   }
 }
+
 ```
